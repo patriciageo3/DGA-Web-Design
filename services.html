@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="DGA Design offers professional web development environment">
+    <meta name="keywords" content="HTML, CSS, Javascript, web development, professional web design">
+    <meta name="author" content="Patricia Georgescu">
+    <title> DGA Design | Services </title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1 id="branding"> <span class="highlight"> DGA </span> Web Design </h1>
+            <nav>
+                <ul>
+                    <li > <a href="index.html"> Home </a> </li>
+                    <li > <a href="about.html"> About </a> </li>
+                    <li class="current"> <a href="services.html"> Services </a> </li>
+                </ul>
+            </nav>
+        </div> <!-- end of container div in header-->
+    </header>
+    
+    <section id="newsletter"> 
+        <div class="container">
+        <h1> Subscribe To Our Newsletter </h1>
+            <form method="POST" action="process.php">
+                <input type="email" placeholder="Enter your e-Mail here...">
+                <button type="submit" > Subscribe Now! </button>
+            </form>
+        </div> <!-- end of div container in section newsletter -->
+    </section>
+    
+    <section id="main">
+    <div class="container">
+    <article id="services">
+        <h1> Services </h1>
+        <ul>
+            <li>
+                <h1> Website Design </h1>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
+                <p> Pricing: $1,000 - $3,000. </p>
+            </li>
+            
+             <li>
+                <h1> Website Maintenance </h1>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
+                <p> Pricing:  $250 per month </p>
+            </li>
+            
+             <li>
+                <h1> Website Hosting</h1>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
+                <p> Pricing: $25 per month </p>
+            </li>
+        </ul>
+    </article>
+    
+    <aside class="quote">
+       <form method="POST" action="process2.php">
+            <h3> Get A Quote</h3>
+            <p>
+            <label for="name"> Name: </label> <br>
+            <input type="text" id="name" name="personName" placeholder="Type name here....">
+            </p>
+            <p>
+            <label for="mail"> E-Mail: </label> <br>
+            <input type="email" id="mail" name="personEmail" placeholder="Type mail here....">
+            </p>
+            <p>
+            <label for="message"> Message: </label> <br>
+            <textarea placeholder="Your message here...."> </textarea>
+            </p>
+           
+            <button class="buttonQ" type="submit">Send</button>
+           
+       </form>      
+       
+    </aside>
+    </div> <!-- end of div container in section main ABOUT US -->
+    </section>
+    
+    <footer>
+        <p> DGA Web Design, Copyright &copy; 2017 </p>
+    </footer>
+
+</body>
+</html>
